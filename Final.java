@@ -44,7 +44,7 @@ public Final(){
 			
 			Maestro_Yoda MY = new Maestro_Yoda ();
 			texto= MY.leerArchivo(direccion);
-			Creator c = new Creator ("Output_MaestroYoda#201314745", texto);
+			Creator c = new Creator ("Output_MaestroYoda#201314745.txt", texto);
 		}
 	});
 	btnMaestroYoda.setBounds(122, 109, 159, 43);
@@ -57,7 +57,7 @@ public Final(){
 			
 			TecladoT9 t= new TecladoT9();
 			texto= t.leerArchivo(direccion);
-			Creator c = new Creator ("Output_TecladoT9#201314745", texto);
+			Creator c = new Creator ("Output_TecladoT9#201314745.txt", texto);
 		}
 	});
 	btnTecladoT.setFont(new Font("Tahoma", Font.PLAIN, 18));
@@ -71,7 +71,7 @@ public Final(){
 			
 			Numero n= new Numero();
 			texto= n.leerArchivo(direccion);
-			Creator c = new Creator ("Output_Numero#201314745", texto);
+			Creator c = new Creator ("Output_Numero#201314745.txt", texto);
 		}
 	});
 	btnNumeros.setFont(new Font("Tahoma", Font.PLAIN, 18));
